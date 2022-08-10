@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/mahananda123/maha/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mahananda123/maha/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>mahananda reddy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="css/favicon.ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top_container">
+      <img class="top_cloud" src="images/cloud.png" alt="cloud-img">
+      <h1 class="h1">I'm Mahananda</h1>
+      <h2><strong>a <span class="pro1">pro</span>grammer</strong></h2>
+      <img class="bottom_cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img src="maha.jpg" alt="">
+          <h2>Hello.</h2>
+          <p class="intro">I am a student and web developer. I'm studying in <a href="https://www.iare.ac.in" style="color: green;">IARE</a>.I❤️friends and career development skills.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="skill_img" src="images/web development1.jpg" alt="">
+            <img src="images/giphy360p.mp4" alt="">
+            <h3>Qualities</h3>
+              <p class="qualities">leadership qualities, Quik learner, good guider, If anyone challenge you that you can't do.I can make it happpen twice.</p>
+          </div>
+          <div class="skill-row">
+            <img class="skill_row_img" src="images/cloud.png" alt="">
+            <h3>My Programming Skills</h3>
+            <p>python language,c language,java language,sql,web develpoer(like html,css,javascript language and back-end development)</p>
+          </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you want to be part of my journey.</h3>
+          <p class="cnt-msg">Want to do things as I did? let's talk about how awesome they are!  Come let us begin our journey.</p>
+          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© Mahananda Reddy.</p>
+      </div>
+  </body>
+</html>
